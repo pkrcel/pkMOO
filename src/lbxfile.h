@@ -16,7 +16,7 @@
 #include <stdexcept>
 
 enum LBXfiletype {
-  LBX_gfx = 0,
+  LBX_gfx = (unsigned short)0,
   LBX_sound,
   LBX_font,
   LBX_ingamehelp,
@@ -33,7 +33,7 @@ private:
   unsigned short                filecount;
   unsigned int                  signature;
   LBXfiletype                   type;
-  std::vector<unsigned int>     offests;
+  std::vector<unsigned int>     offsets;
   std::vector<std::streambuf>   subfiles;
 protected:
 

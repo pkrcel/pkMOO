@@ -1,4 +1,4 @@
-project(moo1LBXhandler)
+project(moo1LBXhandler CXX)
 cmake_minimum_required(VERSION 2.8)
 
 # version numbers
@@ -13,14 +13,20 @@ endif()
 
 # source directories
 aux_source_directory(src SRC_LIST)
+aux_source_directory(src/utils SRC_LIST)
 
 # add the binary tree to the search path for include files
 # so that we will eventually find Cmake Generated Headers
 include_directories("${PROJECT_BINARY_DIR}")
 
 #add library TGUI2 in project
-add_subdirectory(tgui2)
-include_directories(${PROJECT_SOURCE_DIR}/tgui2)
+#add_subdirectory(${PROJECT_SOURCE_DIR}/src/tgui2)
+#include_directories(${PROJECT_SOURCE_DIR}/src/tgui2)
+
+#add utilities subdir
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/utils)
+include_directories(${PROJECT_SOURCE_DIR}/src/utils)
+
 
 # add include directories
 include_directories(${PRJ_INCLUDE_DIR})
@@ -59,7 +65,7 @@ add_executable(${PROJECT_NAME} ${SRC_LIST} ${RESOURCES})
 
 
 #target link
-target_link_libraries(${PROJECT_NAME} TGUI2)
+#target_link_libraries(${PROJECT_NAME} TGUI2)
 target_link_libraries(${PROJECT_NAME} ${ALLEGRO_LIBS})
 target_link_libraries(${PROJECT_NAME} ${DEP_ALLEG_LIBS})
 target_link_libraries(${PROJECT_NAME} ${STANDARD_WIN_LIBS})
