@@ -13,16 +13,25 @@
 #include <string>
 #include <vector>
 #include <array>
+#include <map>
 #include <stdexcept>
 
-enum LBXfiletype {
-  LBX_gfx = (unsigned short)0,
-  LBX_sound,
-  LBX_font,
-  LBX_ingamehelp,
-  LBX_unused,
-  LBX_reqd,           // in MOO1 REQD.LBX is the only file of this type
-  LBX_MAX_TYPES
+enum LBXContainerType {
+LBX_GFX = (unsigned short)0,
+LBX_SOUND,
+LBX_FONT,
+LBX_INGAMEHELP,
+LBX_UNUSED,
+LBX_REQD,           // in MOO1 REQD.LBX is the only file of this type
+LBX_CONTAINER_MAX_TYPES
+};
+static std::map<LBXContainerType , std::string> LBXContainerMap = {
+  { LBX_GFX        , "LBX Graphics Container"     },
+  { LBX_SOUND      , "LBX Sound Container"        },
+  { LBX_FONT       , "LBX Font/Palette Container" },
+  { LBX_INGAMEHELP , "LBX In-Game Help Container" },
+  { LBX_UNUSED     , "LBX UNUSED Container"       },
+  { LBX_REQD       , "LBX REQD Container"         }   // in MOO1 'REQD.LBX' is the is the only file of this type
 };
 
 class LBXcontainer
@@ -32,7 +41,7 @@ private:
   std::ifstream                 filebuffer;
   unsigned short                filecount;
   unsigned int                  signature;
-  LBXfiletype                   type;
+  LBXContainerType              type;
   std::vector<unsigned int>     offsets;
   std::vector<std::streambuf>   subfiles;
 protected:

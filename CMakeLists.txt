@@ -51,7 +51,9 @@ set(DEP_ALLEG_LIBS ogg opengl32)
 set(TGUI2_INCLUDE_DIR "tgui2")
 
 # set c++11 flags
-set(CMAKE_CXX_FLAGS "-std=c++11 -static-libstdc++ -mwindows")
+#set(CMAKE_CXX_FLAGS "-std=c++11 -static-libstdc++ -static-libgcc -mwindows -l:libpthread.a")
+set(CMAKE_CXX_FLAGS "-std=c++11 -static-libstdc++ -static-libgcc -mwindows")
+#set(CMAKE_EXE_LINKER_FLAGS "-l:libwinpthread.a")
 
 #the executable
 add_executable(${PROJECT_NAME} ${SRC_LIST} ${RESOURCES})
@@ -66,7 +68,7 @@ add_executable(${PROJECT_NAME} ${SRC_LIST} ${RESOURCES})
 
 #target link
 #target_link_libraries(${PROJECT_NAME} TGUI2)
-target_link_libraries(${PROJECT_NAME} ${ALLEGRO_LIBS})
-target_link_libraries(${PROJECT_NAME} ${DEP_ALLEG_LIBS})
+#target_link_libraries(${PROJECT_NAME} ${ALLEGRO_LIBS})
+#target_link_libraries(${PROJECT_NAME} ${DEP_ALLEG_LIBS})
 target_link_libraries(${PROJECT_NAME} ${STANDARD_WIN_LIBS})
 

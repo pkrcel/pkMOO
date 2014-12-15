@@ -2,18 +2,22 @@
 #include "lbxfile.h"
 
 
-int main()
+int main(int argc, char* argv[])
 {
   try{
-    LBXcontainer myLBX("moo/BACKGRND.LBX");
+    const char* toopen ="moo/BACKGRND.LBX";
+    if (argv[1]) {
+        toopen = argv[1];
+      }
+    LBXcontainer myLBX(toopen);
     myLBX.LogToConsole();
   }
-  catch(std::invalid_argument& e){
+  catch(std::runtime_error& e){
     std::cout << "Application terminated abnormally due to invalid argument\n";
     std::cout << e.what() << std::endl;
   }
   catch(...){
-    std::cout << "application terminated abnormally du to unknown causes\n";
+    std::cout << "Application terminated abnormally due to unknown causes\n";
   }
 
   return 0;
