@@ -1,0 +1,63 @@
+Number of Files in moo/SPACE.LBX container: 58
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000940 - Named SPACE    -                      
+Offset n.01: 0x00001020 - Named BOX      -                      
+Offset n.02: 0x0000160D - Named RETR_OFF -                      
+Offset n.03: 0x0000175C - Named DONE     -                      
+Offset n.04: 0x000018F0 - Named MISL_OFF -                      
+Offset n.05: 0x00001A4F - Named RETREAT  -                      
+Offset n.06: 0x00001CBD - Named WAIT     -                      
+Offset n.07: 0x00001E7C - Named EXPLOS0  -                      
+Offset n.08: 0x00001FB3 - Named EXPLOS1  -                      
+Offset n.09: 0x00002133 - Named EXPLOS2  -                      
+Offset n.10: 0x000022C5 - Named EXPLOS3  -                      
+Offset n.11: 0x000024B2 - Named EXPLOS4  -                      
+Offset n.12: 0x000026B6 - Named EXPLOS5  -                      
+Offset n.13: 0x000028FA - Named EXPLOS6  -                      
+Offset n.14: 0x00002B56 - Named EXPLOS7  -                      
+Offset n.15: 0x00002D89 - Named EXPLOS8  -                      
+Offset n.16: 0x00002F97 - Named EXPLOS9  -                      
+Offset n.17: 0x0000312A - Named AUTO     -                      
+Offset n.18: 0x000032AE - Named SPECIAL  -                      
+Offset n.19: 0x00003525 - Named ENVIRON  -                      
+Offset n.20: 0x0000489A - Named SCAN_OFF -                      
+Offset n.21: 0x0000497F - Named SCAN     -                      
+Offset n.22: 0x00004B25 - Named PLANET   -                      
+Offset n.23: 0x00004D7E - Named WARP1    -                      
+Offset n.24: 0x00004EB4 - Named TECHNULL -                      
+Offset n.25: 0x000059A6 - Named MISBUTT  -                      
+Offset n.26: 0x00005C6F - Named NEBULA   -                      
+Offset n.27: 0x0000647D - Named SPACE1   -                      
+Offset n.28: 0x000069D6 - Named SPACE2   -                      
+Offset n.29: 0x00006F3E - Named SPACE3   -                      
+Offset n.30: 0x00007797 - Named SPACE4   -                      
+Offset n.31: 0x00007E52 - Named PLNETOFF -                      
+Offset n.32: 0x00007F83 - Named SPEC_OFF -                      
+Offset n.33: 0x000080C0 - Named WARPOUT  -                      
+Offset n.34: 0x00008184 - Named ENVTERM  -                      
+Offset n.35: 0x0000855A - Named BASE_BTN -                      
+Offset n.36: 0x000087E8 - Named DIS_BEM2 -                      
+Offset n.37: 0x00009FE9 - Named STASIS2  -                      
+Offset n.38: 0x0000AA2A - Named BLK_HOLE -                      
+Offset n.39: 0x0000B625 - Named VS2      -                      
+Offset n.40: 0x0000C009 - Named SML_ASTE -                      
+Offset n.41: 0x0000C0CD - Named MED_ASTE -                      
+Offset n.42: 0x0000C1ED - Named VP2      - top                  
+Offset n.43: 0x0000C979 - Named VP2      - data                 
+Offset n.44: 0x0000D5AF - Named VP2      - line                 
+Offset n.45: 0x0000D9D2 - Named WARP2    -                      
+Offset n.46: 0x0000DB8A - Named WARP3    -                      
+Offset n.47: 0x0000DDC2 - Named WARP4    -                      
+Offset n.48: 0x0000E07B - Named BOMBS    -                      
+Offset n.49: 0x0000E3C8 - Named BIOLOGIC -                      
+Offset n.50: 0x0000F1B5 - Named BOX_X    -                      
+Offset n.51: 0x0000F5CC - Named BOX_Y    -                      
+Offset n.52: 0x0000FA04 - Named BOX_XY   -                      
+Offset n.53: 0x0000FE0B - Named CIRCLE   -                      
+Offset n.54: 0x000101A8 - Named SPHERE2  -                      
+Offset n.55: 0x000126CD - Named MED_ASTE -                      
+Offset n.56: 0x000127C3 - Named SML_ASTE -                      
+Offset n.57: 0x00012885 - Named VP2      - bottomline           
+Offset n.58: 0x00012D4E - Named EOF      - End Of File          

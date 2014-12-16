@@ -1,0 +1,33 @@
+Number of Files in moo/COLONIES.LBX container: 28
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000580 - Named NOPLANET -                      
+Offset n.01: 0x0000172C - Named NOPLANET -                      
+Offset n.02: 0x000028D8 - Named RADIATE1 -                      
+Offset n.03: 0x00003A98 - Named RADIATE2 -                      
+Offset n.04: 0x00004CA1 - Named TOXIC1   -                      
+Offset n.05: 0x00006E22 - Named TOXIC2   -                      
+Offset n.06: 0x00008F66 - Named INFERNO1 -                      
+Offset n.07: 0x0000A87A - Named INFERNO2 -                      
+Offset n.08: 0x0000C1D0 - Named DEAD1    -                      
+Offset n.09: 0x0000D8F6 - Named DEAD2    -                      
+Offset n.10: 0x0000F333 - Named TUNDRA1  -                      
+Offset n.11: 0x00010B16 - Named TUNDRA2  -                      
+Offset n.12: 0x00012079 - Named BARREN1  -                      
+Offset n.13: 0x000136DD - Named BARREN2  -                      
+Offset n.14: 0x00014D4C - Named MINIMAL1 -                      
+Offset n.15: 0x0001702F - Named MINIMAL2 -                      
+Offset n.16: 0x000191D7 - Named DESERT1  -                      
+Offset n.17: 0x0001A679 - Named DESERT2  -                      
+Offset n.18: 0x0001C154 - Named STEPPE1  -                      
+Offset n.19: 0x0001D2B2 - Named STEPPE2  -                      
+Offset n.20: 0x0001E290 - Named ARID1    -                      
+Offset n.21: 0x0001F727 - Named ARID2    -                      
+Offset n.22: 0x000210D9 - Named OCEAN1   -                      
+Offset n.23: 0x00022097 - Named OCEAN2   -                      
+Offset n.24: 0x000230DD - Named JUNGLE1  -                      
+Offset n.25: 0x00024AA0 - Named JUNGLE2  -                      
+Offset n.26: 0x00026A67 - Named TERRAN1  -                      
+Offset n.27: 0x00028BBD - Named TERRAN2  -                      
+Offset n.28: 0x0002AE70 - Named EOF      - End Of File          

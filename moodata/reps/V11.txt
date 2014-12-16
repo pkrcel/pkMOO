@@ -1,0 +1,11 @@
+Number of Files in moo/V11.LBX container: 6
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x000002C0 - Named STARLORD -                      
+Offset n.01: 0x000013E9 - Named BMAPSML  -                      
+Offset n.02: 0x0000176F - Named BMAPMED  -                      
+Offset n.03: 0x00001AF5 - Named BMAPLARG -                      
+Offset n.04: 0x00001E7B - Named BMAPHUGE -                      
+Offset n.05: 0x00002201 - Named STARGATE -                      
+Offset n.06: 0x000022B7 - Named EOF      - End Of File          

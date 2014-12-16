@@ -1,0 +1,55 @@
+Number of Files in moo/PLANETS.LBX container: 50
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000840 - Named PLANET1  -                      
+Offset n.01: 0x00000AAC - Named PLANET2  -                      
+Offset n.02: 0x00000CFD - Named PLANET3  -                      
+Offset n.03: 0x00000EB9 - Named PLANET4  -                      
+Offset n.04: 0x0000110D - Named PLANET5  -                      
+Offset n.05: 0x00001359 - Named PLANET6  -                      
+Offset n.06: 0x000015AC - Named PLANET7  -                      
+Offset n.07: 0x00001804 - Named PLANET8  -                      
+Offset n.08: 0x00001A40 - Named PLANET9  -                      
+Offset n.09: 0x00001C35 - Named PLANET10 -                      
+Offset n.10: 0x00001E4C - Named PLANET11 -                      
+Offset n.11: 0x0000209A - Named PLANET12 -                      
+Offset n.12: 0x00002268 - Named PLANET13 -                      
+Offset n.13: 0x00002484 - Named PLANET14 -                      
+Offset n.14: 0x000026D8 - Named PLANET15 -                      
+Offset n.15: 0x00002932 - Named PLANET16 -                      
+Offset n.16: 0x00002B7C - Named PLANET17 -                      
+Offset n.17: 0x00002D4D - Named PLANET18 -                      
+Offset n.18: 0x00002FA8 - Named PLANET19 -                      
+Offset n.19: 0x000031D0 - Named PLANET20 -                      
+Offset n.20: 0x0000343F - Named PLANET21 -                      
+Offset n.21: 0x00003647 - Named PLANET22 -                      
+Offset n.22: 0x0000384E - Named PLANET23 -                      
+Offset n.23: 0x00003A8E - Named PLANET24 -                      
+Offset n.24: 0x00003C9A - Named PLANET25 -                      
+Offset n.25: 0x00003ECF - Named PLANET26 -                      
+Offset n.26: 0x00004128 - Named PLANET27 -                      
+Offset n.27: 0x00004375 - Named PLANET28 -                      
+Offset n.28: 0x000044D6 - Named PLANET29 -                      
+Offset n.29: 0x0000471C - Named PLANET30 -                      
+Offset n.30: 0x00004882 - Named PLANET31 -                      
+Offset n.31: 0x00004AD7 - Named PLANET32 -                      
+Offset n.32: 0x00004C34 - Named PLANET33 -                      
+Offset n.33: 0x00004D98 - Named PLANET34 -                      
+Offset n.34: 0x00004FCB - Named PLANET35 -                      
+Offset n.35: 0x000051E0 - Named RACES    - human                
+Offset n.36: 0x000056CE - Named RACES    - feline               
+Offset n.37: 0x00005B64 - Named RACES    - silicoid             
+Offset n.38: 0x000060BE - Named RACES    - saurian              
+Offset n.39: 0x00006636 - Named RACES    - mentat               
+Offset n.40: 0x00006B5B - Named RACES    - avian                
+Offset n.41: 0x0000708E - Named RACES    - inssect              
+Offset n.42: 0x00007568 - Named RACES    - ursoid               
+Offset n.43: 0x00007AF9 - Named RACES    - meklar               
+Offset n.44: 0x000080CA - Named RACES    - nazguul              
+Offset n.45: 0x000085E7 - Named SMONSTER -                      
+Offset n.46: 0x00008630 - Named TMONSTER -                      
+Offset n.47: 0x00008661 - Named PHUGE    -                      
+Offset n.48: 0x00008A52 - Named          -                      
+Offset n.49: 0x00008A52 - Named POP1     - bottom right         
+Offset n.50: 0x0000929C - Named EOF      - End Of File          

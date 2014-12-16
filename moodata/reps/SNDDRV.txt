@@ -1,0 +1,27 @@
+Number of Files in moo/SNDDRV.LBX container: 22
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Sound Container
+The file contains the following offsets
+Offset n.00: 0x000004C0
+Offset n.01: 0x000025B2
+Offset n.02: 0x000031B2
+Offset n.03: 0x00006B69
+Offset n.04: 0x00007689
+Offset n.05: 0x0000B072
+Offset n.06: 0x0000C2AD
+Offset n.07: 0x0000FE30
+Offset n.08: 0x00011182
+Offset n.09: 0x00015167
+Offset n.10: 0x000164B9
+Offset n.11: 0x0001A043
+Offset n.12: 0x0001B14C
+Offset n.13: 0x0001F119
+Offset n.14: 0x00020222
+Offset n.15: 0x000241A3
+Offset n.16: 0x0002582D
+Offset n.17: 0x00028200
+Offset n.18: 0x00028E00
+Offset n.19: 0x0002B7D3
+Offset n.20: 0x0002C3D3
+Offset n.21: 0x0002C75B
+Offset n.22: 0x0002CAE3

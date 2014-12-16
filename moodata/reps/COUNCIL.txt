@@ -1,0 +1,29 @@
+Number of Files in moo/COUNCIL.LBX container: 24
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000500 - Named FLOOR    -                      
+Offset n.01: 0x00004249 - Named CYLINDER -                      
+Offset n.02: 0x0001B98A - Named HUMAN    -                      
+Offset n.03: 0x0001CB0C - Named FELINE   -                      
+Offset n.04: 0x0001DBFD - Named SILICOID -                      
+Offset n.05: 0x0001F9C4 - Named SAURIAN  -                      
+Offset n.06: 0x0002100A - Named MENTAT   -                      
+Offset n.07: 0x000227A7 - Named AVIAN    -                      
+Offset n.08: 0x00023CAB - Named KLACKON  -                      
+Offset n.09: 0x0002599D - Named URSOID   -                      
+Offset n.10: 0x00026D1F - Named MEKLAR   -                      
+Offset n.11: 0x0002888E - Named NAZGUL   -                      
+Offset n.12: 0x0002A8F7 - Named HUMANM   -                      
+Offset n.13: 0x0002BE54 - Named FELINEM  -                      
+Offset n.14: 0x0002D7EF - Named SILICOIM -                      
+Offset n.15: 0x0002F713 - Named SAURIANM -                      
+Offset n.16: 0x00031578 - Named MENTATM  -                      
+Offset n.17: 0x000330BB - Named AVIANM   -                      
+Offset n.18: 0x00034FD3 - Named KLACKONM -                      
+Offset n.19: 0x00037072 - Named URSOIDM  -                      
+Offset n.20: 0x0003906E - Named MEKLARM  -                      
+Offset n.21: 0x0003B169 - Named NAZGULM  -                      
+Offset n.22: 0x0003CE4A - Named EMPTY    -                      
+Offset n.23: 0x0003D898 - Named STARBACK -                      
+Offset n.24: 0x00043F7E - Named EOF      - End Of File          

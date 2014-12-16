@@ -1,0 +1,35 @@
+Number of Files in moo/SPIES.LBX container: 30
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x000005C0 - Named HUMANSC  -                      
+Offset n.01: 0x00004EA8 - Named FELINESC -                      
+Offset n.02: 0x0000AEA5 - Named SILICOSC -                      
+Offset n.03: 0x00010EE8 - Named SAURIASC -                      
+Offset n.04: 0x00017AF9 - Named MENTATSC -                      
+Offset n.05: 0x0001DC12 - Named AVIANSC  -                      
+Offset n.06: 0x00023331 - Named INSECTSC -                      
+Offset n.07: 0x0002B467 - Named URSOIDSC -                      
+Offset n.08: 0x000332CB - Named MEKLARSC -                      
+Offset n.09: 0x0003956E - Named NAZGUUSC -                      
+Offset n.10: 0x00040CDB - Named HUMANSPY -                      
+Offset n.11: 0x00046C6D - Named FELINSPY -                      
+Offset n.12: 0x0004CB52 - Named SILICSPY -                      
+Offset n.13: 0x000551C0 - Named SAURISPY -                      
+Offset n.14: 0x0005B102 - Named MENTASPY -                      
+Offset n.15: 0x00063B92 - Named AVIANSPY -                      
+Offset n.16: 0x0006897A - Named INSECSPY -                      
+Offset n.17: 0x00071FE9 - Named URSSPY   -                      
+Offset n.18: 0x00079962 - Named MEKLASPY -                      
+Offset n.19: 0x0007C6BD - Named NAZGUSPY -                      
+Offset n.20: 0x00081DD2 - Named HUMTROOP -                      
+Offset n.21: 0x0008759E - Named FELTROOP -                      
+Offset n.22: 0x0008D5CA - Named SILTROOP -                      
+Offset n.23: 0x000937F9 - Named SAUTROOP -                      
+Offset n.24: 0x0009A348 - Named MENTROOP -                      
+Offset n.25: 0x000A40B9 - Named AVITROOP -                      
+Offset n.26: 0x000AD6A4 - Named INSTROOP -                      
+Offset n.27: 0x000B3772 - Named URSTROOP -                      
+Offset n.28: 0x000BC920 - Named MEKTROOP -                      
+Offset n.29: 0x000C4A4F - Named NAZTROOP -                      
+Offset n.30: 0x000CBAA6 - Named EOF      - End Of File          

@@ -1,0 +1,31 @@
+Number of Files in moo/NEWSCAST.LBX container: 26
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000540 - Named TV       -                      
+Offset n.01: 0x00004443 - Named GNN      -                      
+Offset n.02: 0x0000C1D2 - Named NEWSCAST -                      
+Offset n.03: 0x00013412 - Named GNNWORLD -                      
+Offset n.04: 0x0001B81F - Named PLAGUE   -                      
+Offset n.05: 0x0001BC9E - Named QUAKE    -                      
+Offset n.06: 0x0001C175 - Named NOVA     -                      
+Offset n.07: 0x0001C4CD - Named WASTE    -                      
+Offset n.08: 0x0001CA72 - Named DIPLOMAT -                      
+Offset n.09: 0x0001CD91 - Named VIRUS    -                      
+Offset n.10: 0x0001D316 - Named COMET    -                      
+Offset n.11: 0x0001D745 - Named PIRATES  -                      
+Offset n.12: 0x0001DB49 - Named DERELICT -                      
+Offset n.13: 0x0001DF4F - Named REBELS   -                      
+Offset n.14: 0x0001E2A8 - Named CRYSTAL  -                      
+Offset n.15: 0x0001E6F8 - Named AMEOBA   -                      
+Offset n.16: 0x0001EB1E - Named FERTILE  -                      
+Offset n.17: 0x0001EF9B - Named MINING   -                      
+Offset n.18: 0x0001F363 - Named GOLD     -                      
+Offset n.19: 0x0001F74B - Named DEPLETED -                      
+Offset n.20: 0x0001FC3C - Named ORION    -                      
+Offset n.21: 0x0001FFF0 - Named REVOLT   -                      
+Offset n.22: 0x0002030B - Named PLANETS  -                      
+Offset n.23: 0x000207A9 - Named STATS    -                      
+Offset n.24: 0x00020AB6 - Named GENOCIDE -                      
+Offset n.25: 0x00020EF3 - Named GUARDIAN -                      
+Offset n.26: 0x00021426 - Named EOF      - End Of File          

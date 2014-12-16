@@ -1,0 +1,18 @@
+Number of Files in moo/DESIGN.LBX container: 13
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x000003A0 - Named NEWSCRN3 -                      
+Offset n.01: 0x00009549 - Named BLANK    -                      
+Offset n.02: 0x000097BC - Named ICON_DN  -                      
+Offset n.03: 0x0000986B - Named ICON_UP  -                      
+Offset n.04: 0x00009916 - Named COUNT_UP -                      
+Offset n.05: 0x0000997A - Named COUNT_DN -                      
+Offset n.06: 0x000099DE - Named POP1     - left side            
+Offset n.07: 0x0000A315 - Named POP1     - right side           
+Offset n.08: 0x0000B2AF - Named TITLEBOX -                      
+Offset n.09: 0x0000B562 - Named POP1     - bottom left          
+Offset n.10: 0x0000BDB2 - Named POP1     - bottom right         
+Offset n.11: 0x0000BDD2 - Named POPSCROL - scroll up arrow      
+Offset n.12: 0x0000BE4A - Named POPSCROL - scroll down arrow    
+Offset n.13: 0x0000BEBE - Named EOF      - End Of File          

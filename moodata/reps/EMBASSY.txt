@@ -1,0 +1,23 @@
+Number of Files in moo/EMBASSY.LBX container: 18
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000440 - Named BORDER   -                      
+Offset n.01: 0x0000409E - Named BACKGRND -                      
+Offset n.02: 0x000076DE - Named HUMAN    -                      
+Offset n.03: 0x0000FCBF - Named FELINE   -                      
+Offset n.04: 0x000176D3 - Named SILICOID -                      
+Offset n.05: 0x00022B53 - Named SAURIAN  -                      
+Offset n.06: 0x0002E04B - Named MENTAT   -                      
+Offset n.07: 0x00036E51 - Named AVIAN    -                      
+Offset n.08: 0x0003F1D8 - Named KLACKON  -                      
+Offset n.09: 0x00049CF2 - Named URSOID   -                      
+Offset n.10: 0x00054044 - Named MEKLAR   -                      
+Offset n.11: 0x0005DD22 - Named NAZGUUL  -                      
+Offset n.12: 0x0006764B - Named EMPERORB -                      
+Offset n.13: 0x000683BE - Named EMPERORG -                      
+Offset n.14: 0x00068E9A - Named EMPERORP -                      
+Offset n.15: 0x00069976 - Named EMPERORR -                      
+Offset n.16: 0x0006A453 - Named EMPERORW -                      
+Offset n.17: 0x0006AF2F - Named EMPERORY -                      
+Offset n.18: 0x0006B9AA - Named EOF      - End Of File          

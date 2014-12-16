@@ -1,0 +1,40 @@
+Number of Files in moo/VORTEX.LBX container: 35
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000660 - Named VORTEX   -                      
+Offset n.01: 0x00025A29 - Named STARLORD -                      
+Offset n.02: 0x0002678D - Named OPT_BACK -                      
+Offset n.03: 0x00034ADB - Named LOAD_OPT -                      
+Offset n.04: 0x00040624 - Named SAVE_OPT -                      
+Offset n.05: 0x0004C977 - Named NEWGAME  -                      
+Offset n.06: 0x00056EF2 - Named OPT_BUTT - new game options     
+Offset n.07: 0x000575A5 - Named LOAD     - grey                 
+Offset n.08: 0x00057636 - Named LOAD     - green                
+Offset n.09: 0x000576CF - Named CUSTOM   -                      
+Offset n.10: 0x0005ECE1 - Named FLAGS    - green                
+Offset n.11: 0x0005FD0E - Named FLAGS    - blue                 
+Offset n.12: 0x0006107D - Named FLAGS    - red                  
+Offset n.13: 0x00062042 - Named FLAGS    - white                
+Offset n.14: 0x00063245 - Named FLAGS    - yellow               
+Offset n.15: 0x000643E6 - Named FLAGS    - purple               
+Offset n.16: 0x0006552E - Named RACES    - human                
+Offset n.17: 0x00065A2F - Named RACES    - feline               
+Offset n.18: 0x00065EEE - Named RACES    - silicoid             
+Offset n.19: 0x00066445 - Named RACES    - saurian              
+Offset n.20: 0x000669C1 - Named RACES    - mentat               
+Offset n.21: 0x00066EDB - Named RACES    - avian                
+Offset n.22: 0x00067418 - Named RACES    - klackon              
+Offset n.23: 0x0006790B - Named RACES    - ursoid               
+Offset n.24: 0x00067E9E - Named RACES    - meklar               
+Offset n.25: 0x00068455 - Named RACES    - nazguul              
+Offset n.26: 0x00068992 - Named OPT_BUTT - easy                 
+Offset n.27: 0x0006937E - Named OPT_BUTT - easy                 
+Offset n.28: 0x00069BEE - Named GAME     -                      
+Offset n.29: 0x000751D8 - Named GAME_BUT - save                 
+Offset n.30: 0x00075850 - Named GAME_BUT - load                 
+Offset n.31: 0x00075E88 - Named GAME_BUT - quit                 
+Offset n.32: 0x000764DC - Named GAME_BUT - silent               
+Offset n.33: 0x00076BE0 - Named GAME_BUT - fx                   
+Offset n.34: 0x00077377 - Named GAME_BUT - music                
+Offset n.35: 0x00077A6D - Named EOF      - End Of File          

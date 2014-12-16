@@ -1,0 +1,58 @@
+Number of Files in moo/BACKGRND.LBX container: 53
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x000008A0 - Named FLEETBRB -                      
+Offset n.01: 0x0000644F - Named REPORT_V -                      
+Offset n.02: 0x0000FBBC - Named STATBACK -                      
+Offset n.03: 0x000139E6 - Named ENEMVIEW -                      
+Offset n.04: 0x000177BC - Named TECH_BRD -                      
+Offset n.05: 0x0001C613 - Named SABOBACK -                      
+Offset n.06: 0x0001DEF6 - Named SABOBUTT - bases                
+Offset n.07: 0x0001E2ED - Named BASEXPLO -                      
+Offset n.08: 0x0001F4FB - Named IND_EXPL -                      
+Offset n.09: 0x00022EC1 - Named FRAMING  -                      
+Offset n.10: 0x00023AA4 - Named SABOBUTT - industry             
+Offset n.11: 0x00023FCB - Named CONTBACK -                      
+Offset n.12: 0x00024489 - Named CONTBUTT -                      
+Offset n.13: 0x00024DB8 - Named ESPIONAG -                      
+Offset n.14: 0x000298FC - Named ENMYTECH -                      
+Offset n.15: 0x0002A38B - Named EXPLOBAC -                      
+Offset n.16: 0x0002B6BD - Named BOMBARD  -                      
+Offset n.17: 0x0002ECFC - Named BOMBBACK -                      
+Offset n.18: 0x00030059 - Named BOMBBUTT -                      
+Offset n.19: 0x000304D8 - Named BOMBBUTT -                      
+Offset n.20: 0x0003092F - Named NEWSHIP  -                      
+Offset n.21: 0x00031D66 - Named FLEET    -                      
+Offset n.22: 0x00033043 - Named YES_NO   -                      
+Offset n.23: 0x00033460 - Named YES_NO   -                      
+Offset n.24: 0x0003388D - Named YN_BACK  -                      
+Offset n.25: 0x00033D90 - Named SELECTIO -                      
+Offset n.26: 0x00035094 - Named PULLDOWN -                      
+Offset n.27: 0x00035D0A - Named PULLDOWN -                      
+Offset n.28: 0x0003667C - Named REPRT_BU - transfer             
+Offset n.29: 0x00036B43 - Named REPRT_BU - ok                   
+Offset n.30: 0x00036E3A - Named TRANSFER -                      
+Offset n.31: 0x00037BF3 - Named ECO_CHNG -                      
+Offset n.32: 0x000389FE - Named CODES    -                      
+Offset n.33: 0x0003FBF0 - Named BFLEET   -                      
+Offset n.34: 0x00040148 - Named GFLEET   -                      
+Offset n.35: 0x0004069B - Named PFLEET   -                      
+Offset n.36: 0x00040BEE - Named RFLEET   -                      
+Offset n.37: 0x00041141 - Named WFLEET   -                      
+Offset n.38: 0x0004169D - Named YFLEET   -                      
+Offset n.39: 0x00041BF0 - Named MONFLEET -                      
+Offset n.40: 0x00041EA1 - Named BFLEET   -                      
+Offset n.41: 0x0004271B - Named GFLEET   -                      
+Offset n.42: 0x00042F95 - Named PFLEET   -                      
+Offset n.43: 0x0004380F - Named RFLEET   -                      
+Offset n.44: 0x00044089 - Named WFLEET   -                      
+Offset n.45: 0x0004490E - Named YFLEET   -                      
+Offset n.46: 0x00045188 - Named MONFLEET -                      
+Offset n.47: 0x000458BA - Named COPYBUTT -                      
+Offset n.48: 0x00046076 - Named ECO_CHNG -                      
+Offset n.49: 0x00046FB1 - Named ROBO_BUT -                      
+Offset n.50: 0x0004725A - Named SABOBAC2 -                      
+Offset n.51: 0x00048D47 - Named SABOBUTT - incite revolt        
+Offset n.52: 0x0004971C - Named RACEBACK -                      
+Offset n.53: 0x0004F9C3 - Named EOF      - End Of File          

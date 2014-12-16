@@ -1,0 +1,41 @@
+Number of Files in moo/WINLOSE.LBX container: 36
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000680 - Named LOSE     -                      
+Offset n.01: 0x0000C861 - Named FLAGSB   -                      
+Offset n.02: 0x00010C2E - Named FLAGSG   -                      
+Offset n.03: 0x00014FFB - Named FLAGSP   -                      
+Offset n.04: 0x000193C8 - Named FLAGSR   -                      
+Offset n.05: 0x0001D795 - Named FLAGSW   -                      
+Offset n.06: 0x00021D23 - Named FLAGSY   -                      
+Offset n.07: 0x000260F0 - Named COFFINB  -                      
+Offset n.08: 0x000276BD - Named COFFING  -                      
+Offset n.09: 0x00028C8A - Named COFFINP  -                      
+Offset n.10: 0x0002A257 - Named COFFINR  -                      
+Offset n.11: 0x0002B824 - Named COFFINW  -                      
+Offset n.12: 0x0002CDF1 - Named COFFINY  -                      
+Offset n.13: 0x0002E3BE - Named MARCHB   -                      
+Offset n.14: 0x0002F80A - Named MARCHG   -                      
+Offset n.15: 0x00030C56 - Named MARCHP   -                      
+Offset n.16: 0x000320A2 - Named MARCHR   -                      
+Offset n.17: 0x000334EE - Named MARCHW   -                      
+Offset n.18: 0x0003493A - Named MARCHY   -                      
+Offset n.19: 0x00035D86 - Named PLANETS  -                      
+Offset n.20: 0x00036507 - Named STARS    -                      
+Offset n.21: 0x00036C01 - Named WINHUMAN -                      
+Offset n.22: 0x00038DE5 - Named WINFELIN -                      
+Offset n.23: 0x0003A9AA - Named WINSILIC -                      
+Offset n.24: 0x0003DBE6 - Named WINSAURI -                      
+Offset n.25: 0x0003FF14 - Named WINMENTA -                      
+Offset n.26: 0x00042602 - Named WINAVIAN -                      
+Offset n.27: 0x00044A91 - Named WINKLACK -                      
+Offset n.28: 0x000477C7 - Named WINURSOI -                      
+Offset n.29: 0x00049A7B - Named WINMEKLA -                      
+Offset n.30: 0x0004C243 - Named WINNAZG  -                      
+Offset n.31: 0x0004D9A3 - Named WINNING2 -                      
+Offset n.32: 0x0007EE36 - Named WINSHIPS -                      
+Offset n.33: 0x000D85EF - Named WINLAST  -                      
+Offset n.34: 0x000EDC11 - Named NEWSHIPS -                      
+Offset n.35: 0x000FED4E - Named NSTARS   -                      
+Offset n.36: 0x000FF448 - Named EOF      - End Of File          

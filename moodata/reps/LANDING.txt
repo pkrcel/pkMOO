@@ -1,0 +1,55 @@
+Number of Files in moo/LANDING.LBX container: 50
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000840 - Named TRANSPRT -                      
+Offset n.01: 0x00008222 - Named TROOPERS - blue                 
+Offset n.02: 0x000082CB - Named TROOPERS - green                
+Offset n.03: 0x0000836C - Named TROOPERS - purple               
+Offset n.04: 0x00008410 - Named TROOPERS - red                  
+Offset n.05: 0x000084B3 - Named TROOPERS - white                
+Offset n.06: 0x00008555 - Named TROOPERS - yellow               
+Offset n.07: 0x000085F9 - Named LANDRAD1 -                      
+Offset n.08: 0x0000FACA - Named LANDTOX1 -                      
+Offset n.09: 0x0001F0E4 - Named LANDINF1 -                      
+Offset n.10: 0x000273AC - Named LANDDED1 -                      
+Offset n.11: 0x00035416 - Named LANDTUN1 -                      
+Offset n.12: 0x0004267C - Named LANDBAR1 -                      
+Offset n.13: 0x0004F129 - Named LANDMIN1 -                      
+Offset n.14: 0x0005E6B1 - Named LANDDES1 -                      
+Offset n.15: 0x00069B87 - Named LANDSTE1 -                      
+Offset n.16: 0x0007270B - Named LANDARD1 -                      
+Offset n.17: 0x0007F1C7 - Named LANDOCN1 -                      
+Offset n.18: 0x00084092 - Named LANDJUN1 -                      
+Offset n.19: 0x00093F74 - Named LANDTER1 -                      
+Offset n.20: 0x000A1949 - Named SMALLWAR -                      
+Offset n.21: 0x000A1A71 - Named WALKBLUE -                      
+Offset n.22: 0x000A3414 - Named WALKGREN -                      
+Offset n.23: 0x000A4DB5 - Named WALKPURP -                      
+Offset n.24: 0x000A6758 - Named WALKRED  -                      
+Offset n.25: 0x000A80FB - Named WALKWHIT -                      
+Offset n.26: 0x000A9A9E - Named WALKYELL -                      
+Offset n.27: 0x000AB441 - Named SMALLWAR - human                
+Offset n.28: 0x000AB4D9 - Named SMALLWAR - feline               
+Offset n.29: 0x000AB58C - Named SMALLWAR - silicoid             
+Offset n.30: 0x000AB632 - Named SMALLWAR - saurin               
+Offset n.31: 0x000AB6DB - Named SMALLWAR - mentat               
+Offset n.32: 0x000AB767 - Named SMALLWAR - avian                
+Offset n.33: 0x000AB817 - Named SMALLWAR - klackon              
+Offset n.34: 0x000AB8C5 - Named SMALLWAR - ursoid               
+Offset n.35: 0x000AB96D - Named SMALLWAR - meklar               
+Offset n.36: 0x000ABA26 - Named SMALLWAR - nazguul              
+Offset n.37: 0x000ABAC7 - Named LANDRAD2 -                      
+Offset n.38: 0x000B2D9A - Named LANDTOX2 -                      
+Offset n.39: 0x000C231E - Named LANDINF2 -                      
+Offset n.40: 0x000C99BE - Named LANDDED2 -                      
+Offset n.41: 0x000D55F7 - Named LANDTUN2 -                      
+Offset n.42: 0x000E0BE9 - Named LANDBAR2 -                      
+Offset n.43: 0x000EC747 - Named LANDMIN2 -                      
+Offset n.44: 0x000FBE58 - Named LANDDES2 -                      
+Offset n.45: 0x00103D4D - Named LANDSTE2 -                      
+Offset n.46: 0x0010B116 - Named LANDARD2 -                      
+Offset n.47: 0x001167AB - Named LANDOCN2 -                      
+Offset n.48: 0x0011B924 - Named LANDJUN2 -                      
+Offset n.49: 0x0012A361 - Named LANDTER2 -                      
+Offset n.50: 0x00136EAA - Named EOF      - End Of File          

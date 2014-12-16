@@ -1,0 +1,45 @@
+Number of Files in moo/MUSIC.LBX container: 40
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Sound Container
+The file contains the following offsets
+Offset n.00: 0x00000700
+Offset n.01: 0x00003E10
+Offset n.02: 0x000048E8
+Offset n.03: 0x00005A0E
+Offset n.04: 0x00008178
+Offset n.05: 0x0000832E
+Offset n.06: 0x000090BA
+Offset n.07: 0x00009BD2
+Offset n.08: 0x0000A218
+Offset n.09: 0x0000B9D2
+Offset n.10: 0x0000C228
+Offset n.11: 0x0000CBF6
+Offset n.12: 0x0000D548
+Offset n.13: 0x0000E7B8
+Offset n.14: 0x0000EC48
+Offset n.15: 0x0000F94C
+Offset n.16: 0x0000FDFE
+Offset n.17: 0x00010008
+Offset n.18: 0x00010362
+Offset n.19: 0x000108AA
+Offset n.20: 0x00010E40
+Offset n.21: 0x000111CE
+Offset n.22: 0x0001164A
+Offset n.23: 0x00011C90
+Offset n.24: 0x00012124
+Offset n.25: 0x0001274E
+Offset n.26: 0x00012E94
+Offset n.27: 0x0001377C
+Offset n.28: 0x00013CE2
+Offset n.29: 0x00014054
+Offset n.30: 0x0001433C
+Offset n.31: 0x0001524E
+Offset n.32: 0x00016726
+Offset n.33: 0x00016AD6
+Offset n.34: 0x0001707C
+Offset n.35: 0x00017B12
+Offset n.36: 0x00018868
+Offset n.37: 0x00018CB8
+Offset n.38: 0x00018F8E
+Offset n.39: 0x000191EA
+Offset n.40: 0x000198C6

@@ -1,0 +1,35 @@
+Number of Files in moo/NEBULA.LBX container: 30
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x000005C0 - Named SNEBULA1 -                      
+Offset n.01: 0x00000843 - Named SNEBULA2 -                      
+Offset n.02: 0x00000A7C - Named SNEBULA3 -                      
+Offset n.03: 0x00000D7C - Named SNEBULA4 -                      
+Offset n.04: 0x00000F7F - Named SNEBULA5 -                      
+Offset n.05: 0x00001211 - Named SNEBULA6 -                      
+Offset n.06: 0x00001494 - Named SNEBULA7 -                      
+Offset n.07: 0x000016FA - Named SNEBULA8 -                      
+Offset n.08: 0x00001959 - Named SNEBULA9 -                      
+Offset n.09: 0x00001C5C - Named SNEBUL10 -                      
+Offset n.10: 0x00001EA9 - Named LARNEB1  -                      
+Offset n.11: 0x000020D4 - Named LARNEB2  -                      
+Offset n.12: 0x000022E5 - Named LARNEB3  -                      
+Offset n.13: 0x0000257A - Named LARNEB4  -                      
+Offset n.14: 0x0000275E - Named LARNEB5  -                      
+Offset n.15: 0x0000299F - Named LARNEB6  -                      
+Offset n.16: 0x00002BF5 - Named LARNEB7  -                      
+Offset n.17: 0x00002E00 - Named LARNEB8  -                      
+Offset n.18: 0x00003017 - Named LARNEB9  -                      
+Offset n.19: 0x000032D5 - Named LARNEB10 -                      
+Offset n.20: 0x000034CF - Named HUGNEB1  -                      
+Offset n.21: 0x0000367B - Named HUGNEB2  -                      
+Offset n.22: 0x0000380B - Named HUGNEB3  -                      
+Offset n.23: 0x000039D9 - Named HUGNEB4  -                      
+Offset n.24: 0x00003B29 - Named HUGNEB5  -                      
+Offset n.25: 0x00003CB9 - Named HUGNEB6  -                      
+Offset n.26: 0x00003E76 - Named HUGNEB7  -                      
+Offset n.27: 0x00004000 - Named HUGNEB8  -                      
+Offset n.28: 0x00004181 - Named HUGNEB9  -                      
+Offset n.29: 0x00004363 - Named HUGNEB10 -                      
+Offset n.30: 0x00004504 - Named EOF      - End Of File          

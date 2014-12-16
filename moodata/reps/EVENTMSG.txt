@@ -1,0 +1,6 @@
+Number of Files in moo/EVENTMSG.LBX container: 1
+Signature is 0x0000FEAD
+LBX Container Type is: LBX REQD Container
+The file contains the following offsets
+Offset n.00: 0x00000220
+Offset n.01: 0x00007A74

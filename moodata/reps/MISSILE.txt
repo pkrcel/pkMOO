@@ -1,0 +1,45 @@
+Number of Files in moo/MISSILE.LBX container: 40
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000700 - Named MISSILES -                      
+Offset n.01: 0x00000768 - Named MISSILES -                      
+Offset n.02: 0x000007E9 - Named MISSILES -                      
+Offset n.03: 0x0000085D - Named MISSILES -                      
+Offset n.04: 0x000008DE - Named MISSILES -                      
+Offset n.05: 0x00000946 - Named MISSILES -                      
+Offset n.06: 0x000009C7 - Named MISSILES -                      
+Offset n.07: 0x00000A3B - Named MISSILES -                      
+Offset n.08: 0x00000AB5 - Named ANTIMATR -                      
+Offset n.09: 0x00000B48 - Named ANTIMATR -                      
+Offset n.10: 0x00000BFC - Named ANTIMATR -                      
+Offset n.11: 0x00000C9B - Named ANTIMATR -                      
+Offset n.12: 0x00000D4F - Named ANTIMATR -                      
+Offset n.13: 0x00000DE2 - Named ANTIMATR -                      
+Offset n.14: 0x00000E96 - Named ANTIMATR -                      
+Offset n.15: 0x00000F41 - Named ANTIMATR -                      
+Offset n.16: 0x00000FF5 - Named HELLFIRE -                      
+Offset n.17: 0x000010BA - Named HELLFIRE -                      
+Offset n.18: 0x00001197 - Named HELLFIRE -                      
+Offset n.19: 0x00001277 - Named HELLFIRE -                      
+Offset n.20: 0x00001354 - Named HELLFIRE -                      
+Offset n.21: 0x00001419 - Named HELLFIRE -                      
+Offset n.22: 0x000014F6 - Named HELLFIRE -                      
+Offset n.23: 0x000015D6 - Named HELLFIRE -                      
+Offset n.24: 0x000016AF - Named PROTON   -                      
+Offset n.25: 0x00001798 - Named PROTON   -                      
+Offset n.26: 0x00001881 - Named PROTON   -                      
+Offset n.27: 0x0000196A - Named PROTON   -                      
+Offset n.28: 0x00001A53 - Named PROTON   -                      
+Offset n.29: 0x00001B3C - Named PROTON   -                      
+Offset n.30: 0x00001C25 - Named PROTON   -                      
+Offset n.31: 0x00001D0E - Named PROTON   -                      
+Offset n.32: 0x00001DF7 - Named PLASMAQT -                      
+Offset n.33: 0x0000208C - Named PLASMAQT -                      
+Offset n.34: 0x000022F6 - Named PLASMAQT -                      
+Offset n.35: 0x0000259E - Named PLASMAQT -                      
+Offset n.36: 0x0000280E - Named PLASMAQT -                      
+Offset n.37: 0x00002AD6 - Named PLASMAQT -                      
+Offset n.38: 0x00002D29 - Named PLASMAQT -                      
+Offset n.39: 0x00003005 - Named PLASMAQT -                      
+Offset n.40: 0x0000325E - Named EOF      - End Of File          

@@ -1,0 +1,21 @@
+Number of Files in moo/SCREENS.LBX container: 16
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000400 - Named          -                      
+Offset n.01: 0x00000400 - Named TECH_BUT - up                   
+Offset n.02: 0x00000490 - Named TECH_BUT - down                 
+Offset n.03: 0x00000520 - Named TECH_BUT - ok                   
+Offset n.04: 0x000008E7 - Named LITEBULB -                      
+Offset n.05: 0x00000950 - Named LITEBULB -                      
+Offset n.06: 0x000009C1 - Named TECHBACK -                      
+Offset n.07: 0x000020B4 - Named PHUGE    -                      
+Offset n.08: 0x00002531 - Named RACE_PNT -                      
+Offset n.09: 0x0000256E - Named RACES_BU - sabotage             
+Offset n.10: 0x0000296D - Named RACES_BU - espionage            
+Offset n.11: 0x00002DB5 - Named RACES_BU - hiding               
+Offset n.12: 0x00002F9B - Named RACES_BU - status               
+Offset n.13: 0x00003376 - Named RACES_BU - report               
+Offset n.14: 0x00003751 - Named RACES_BU - audience             
+Offset n.15: 0x00003BD6 - Named RACES_BU - ok                   
+Offset n.16: 0x00003E33 - Named EOF      - End Of File          

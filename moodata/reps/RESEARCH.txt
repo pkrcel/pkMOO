@@ -1,0 +1,8 @@
+Number of Files in moo/RESEARCH.LBX container: 3
+Signature is 0x0000FEAD
+LBX Container Type is: LBX REQD Container
+The file contains the following offsets
+Offset n.00: 0x00000260
+Offset n.01: 0x0000096C
+Offset n.02: 0x000018AC
+Offset n.03: 0x0000FD34

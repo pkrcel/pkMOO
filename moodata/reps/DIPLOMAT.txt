@@ -1,0 +1,7 @@
+Number of Files in moo/DIPLOMAT.LBX container: 2
+Signature is 0x0000FEAD
+LBX Container Type is: LBX REQD Container
+The file contains the following offsets
+Offset n.00: 0x00000240
+Offset n.01: 0x000002E6
+Offset n.02: 0x0003B822

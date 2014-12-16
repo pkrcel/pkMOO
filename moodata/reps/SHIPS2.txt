@@ -1,0 +1,80 @@
+Number of Files in moo/SHIPS2.LBX container: 75
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00000B60 - Named BSMALL   -                      
+Offset n.01: 0x00000CC2 - Named BSMALL   -                      
+Offset n.02: 0x00000E37 - Named BSMALL   -                      
+Offset n.03: 0x00000FAB - Named BSMALL   -                      
+Offset n.04: 0x00001124 - Named BSMALL   -                      
+Offset n.05: 0x00001280 - Named BSMALL   -                      
+Offset n.06: 0x000013E5 - Named BMEDIUM  -                      
+Offset n.07: 0x000015D5 - Named BMEDIUM  -                      
+Offset n.08: 0x000017AC - Named BMEDIUM  -                      
+Offset n.09: 0x00001974 - Named BMEDIUM  -                      
+Offset n.10: 0x00001BA5 - Named BMEDIUM  -                      
+Offset n.11: 0x00001D6C - Named BMEDIUM  -                      
+Offset n.12: 0x00001F34 - Named BLARGE   -                      
+Offset n.13: 0x00002169 - Named BLARGE   -                      
+Offset n.14: 0x000023E9 - Named BLARGE   -                      
+Offset n.15: 0x00002664 - Named BLARGE   -                      
+Offset n.16: 0x00002943 - Named BLARGE   -                      
+Offset n.17: 0x00002C62 - Named BLARGE   -                      
+Offset n.18: 0x00002ECC - Named BHUGE    -                      
+Offset n.19: 0x00003253 - Named BHUGE    -                      
+Offset n.20: 0x000035C0 - Named BHUGE    -                      
+Offset n.21: 0x000039AF - Named BHUGE    -                      
+Offset n.22: 0x00003D16 - Named BHUGE    -                      
+Offset n.23: 0x000040C3 - Named BHUGE    -                      
+Offset n.24: 0x00004455 - Named GSMALL   -                      
+Offset n.25: 0x000045B6 - Named GSMALL   -                      
+Offset n.26: 0x0000471C - Named GSMALL   -                      
+Offset n.27: 0x0000487E - Named GSMALL   -                      
+Offset n.28: 0x000049E0 - Named GSMALL   -                      
+Offset n.29: 0x00004B47 - Named GSMALL   -                      
+Offset n.30: 0x00004CC2 - Named GMEDIUM  -                      
+Offset n.31: 0x00004EC0 - Named GMEDIUM  -                      
+Offset n.32: 0x00005098 - Named GMEDIUM  -                      
+Offset n.33: 0x00005254 - Named GMEDIUM  -                      
+Offset n.34: 0x00005428 - Named GMEDIUM  -                      
+Offset n.35: 0x00005600 - Named GMEDIUM  -                      
+Offset n.36: 0x000057E1 - Named GLARGE   -                      
+Offset n.37: 0x00005A3B - Named GLARGE   -                      
+Offset n.38: 0x00005CC2 - Named GLARGE   -                      
+Offset n.39: 0x00005F5D - Named GLARGE   -                      
+Offset n.40: 0x0000626A - Named GLARGE   -                      
+Offset n.41: 0x000064ED - Named GLARGE   -                      
+Offset n.42: 0x0000671E - Named GHUGE    -                      
+Offset n.43: 0x00006A09 - Named GHUGE    -                      
+Offset n.44: 0x00006CDC - Named GHUGE    -                      
+Offset n.45: 0x00006FE6 - Named GHUGE    -                      
+Offset n.46: 0x000072D7 - Named GHUGE    -                      
+Offset n.47: 0x00007633 - Named GHUGE    -                      
+Offset n.48: 0x00007975 - Named PSMALL   -                      
+Offset n.49: 0x00007B0A - Named PSMALL   -                      
+Offset n.50: 0x00007C72 - Named PSMALL   -                      
+Offset n.51: 0x00007DD3 - Named PSMALL   -                      
+Offset n.52: 0x00007F3F - Named PSMALL   -                      
+Offset n.53: 0x000080BE - Named PSMALL   -                      
+Offset n.54: 0x0000823F - Named PMEDIUM  -                      
+Offset n.55: 0x00008402 - Named PMEDIUM  -                      
+Offset n.56: 0x0000866B - Named PMEDIUM  -                      
+Offset n.57: 0x000088AD - Named PMEDIUM  -                      
+Offset n.58: 0x00008AD5 - Named PMEDIUM  -                      
+Offset n.59: 0x00008CF9 - Named PMEDIUM  -                      
+Offset n.60: 0x00008EF3 - Named PLARGE   -                      
+Offset n.61: 0x000091BC - Named PLARGE   -                      
+Offset n.62: 0x00009511 - Named PLARGE   -                      
+Offset n.63: 0x0000980C - Named PLARGE   -                      
+Offset n.64: 0x00009B25 - Named PLARGE   -                      
+Offset n.65: 0x00009EC4 - Named PLARGE   -                      
+Offset n.66: 0x0000A1BB - Named PHUGE    -                      
+Offset n.67: 0x0000A552 - Named PHUGE    -                      
+Offset n.68: 0x0000A9C5 - Named PHUGE    -                      
+Offset n.69: 0x0000AD9F - Named PHUGE    -                      
+Offset n.70: 0x0000B1B0 - Named          -                      
+Offset n.71: 0x0000B1B0 - Named          -                      
+Offset n.72: 0x0000B1B0 - Named MONSTERS - crystal              
+Offset n.73: 0x0000B4A8 - Named MONSTERS - ameoba               
+Offset n.74: 0x0000BA6F - Named MONSTERS - robot                
+Offset n.75: 0x0000BD63 - Named EOF      - End Of File          

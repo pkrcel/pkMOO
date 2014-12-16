@@ -1,0 +1,127 @@
+Number of Files in moo/STARMAP.LBX container: 122
+Signature is 0x0000FEAD
+LBX Container Type is: LBX Graphics Container
+The file contains the following offsets
+Offset n.00: 0x00001140 - Named MAINVIEW -                      
+Offset n.01: 0x00003ADB - Named STARBACK -                      
+Offset n.02: 0x000040BF - Named STARBAK2 -                      
+Offset n.03: 0x00005ACB - Named SMSTARS  - yellow               
+Offset n.04: 0x00005B7A - Named SMSTARS  - red                  
+Offset n.05: 0x00005C29 - Named SMSTARS  - green                
+Offset n.06: 0x00005CD8 - Named SMSTARS  - blue                 
+Offset n.07: 0x00005D91 - Named SMSTARS  - white                
+Offset n.08: 0x00005E4A - Named SMSTARS  - purple               
+Offset n.09: 0x00005EF9 - Named MEDSTARS - yellow               
+Offset n.10: 0x0000608E - Named MEDSTARS - red                  
+Offset n.11: 0x00006223 - Named MEDSTARS - gren                 
+Offset n.12: 0x000063B8 - Named MEDSTARS - blue                 
+Offset n.13: 0x0000654D - Named MEDSTARS - white                
+Offset n.14: 0x000066F7 - Named MEDSTARS - purple               
+Offset n.15: 0x0000688C - Named NEBULA_1 -                      
+Offset n.16: 0x0000741A - Named NEBULA_2 -                      
+Offset n.17: 0x00007E2E - Named NEBULA_3 -                      
+Offset n.18: 0x00008A98 - Named NEBULA_4 -                      
+Offset n.19: 0x000092D5 - Named NEBULA_5 -                      
+Offset n.20: 0x00009D1E - Named NEBULA_6 -                      
+Offset n.21: 0x0000A824 - Named NEBULA_7 -                      
+Offset n.22: 0x0000B24C - Named NEBULA_8 -                      
+Offset n.23: 0x0000BB56 - Named NEBULA_9 -                      
+Offset n.24: 0x0000C76F - Named NEBULA10 -                      
+Offset n.25: 0x0000D481 - Named PLANBORD -                      
+Offset n.26: 0x0000D56F - Named YOURPLNT -                      
+Offset n.27: 0x000106D0 - Named UNEXPLOR -                      
+Offset n.28: 0x00012037 - Named EN_COLNY -                      
+Offset n.29: 0x0001366F - Named NO_COLNY -                      
+Offset n.30: 0x00014CA8 - Named COL_BUTT - ship                 
+Offset n.31: 0x00014FCD - Named COL_BUTT - relocate             
+Offset n.32: 0x000152F3 - Named COL_BUTT - trans                
+Offset n.33: 0x0001561D - Named SMSTARS  - yellow               
+Offset n.34: 0x000156D5 - Named SMSTARS  - red                  
+Offset n.35: 0x0001578D - Named SMSTARS  - green                
+Offset n.36: 0x00015845 - Named SMSTARS  - blue                 
+Offset n.37: 0x000158FD - Named SMSTARS  - white                
+Offset n.38: 0x000159B5 - Named SMSTARS  - puple                
+Offset n.39: 0x00015A6D - Named SMALFLAG - blue                 
+Offset n.40: 0x00015AC2 - Named SMALFLAG - green                
+Offset n.41: 0x00015B17 - Named SMALFLAG - purple               
+Offset n.42: 0x00015B6C - Named SMALFLAG - red                  
+Offset n.43: 0x00015BC1 - Named SMALFLAG - white                
+Offset n.44: 0x00015C16 - Named SMALFLAG - yellow               
+Offset n.45: 0x00015C6B - Named STARGATE -                      
+Offset n.46: 0x00015E4F - Named SMALLSTR - unkown               
+Offset n.47: 0x00015EDD - Named SKY      -                      
+Offset n.48: 0x0001C26C - Named MAPVIEW  -                      
+Offset n.49: 0x0001E8D0 - Named MAP_BUTT -                      
+Offset n.50: 0x0001EF82 - Named MAP_BUTT -                      
+Offset n.51: 0x0001F679 - Named MAP_BUTT -                      
+Offset n.52: 0x0001FD2E - Named MAP_BUTT -                      
+Offset n.53: 0x0002037E - Named SMNEB1   -                      
+Offset n.54: 0x000207EE - Named SMNEB2   -                      
+Offset n.55: 0x00020C3F - Named SMNEB3   -                      
+Offset n.56: 0x00021199 - Named SMNEB4   -                      
+Offset n.57: 0x00021583 - Named SMNEB5   -                      
+Offset n.58: 0x000219FC - Named SMNEB6   -                      
+Offset n.59: 0x00021EC4 - Named SMNEB7   -                      
+Offset n.60: 0x00022201 - Named SMNEB8   -                      
+Offset n.61: 0x000225E8 - Named SMNEB9   -                      
+Offset n.62: 0x00022A6B - Named SMNEB10  -                      
+Offset n.63: 0x00022E69 - Named RELOCATE -                      
+Offset n.64: 0x000238B7 - Named RELOC_BU - cancel               
+Offset n.65: 0x00023D34 - Named RELOC_BU - accept               
+Offset n.66: 0x000241A9 - Named TRAN_BAR -                      
+Offset n.67: 0x0002498A - Named SMALSHIP -                      
+Offset n.68: 0x000249F8 - Named SMALSHIP -                      
+Offset n.69: 0x00024A66 - Named SMALSHIP -                      
+Offset n.70: 0x00024AD4 - Named SMALSHIP -                      
+Offset n.71: 0x00024B42 - Named SMALSHIP -                      
+Offset n.72: 0x00024BB0 - Named SMALSHIP -                      
+Offset n.73: 0x00024C1E - Named SMALTRAN -                      
+Offset n.74: 0x00024C9A - Named SMALTRAN -                      
+Offset n.75: 0x00024D11 - Named SMALTRAN -                      
+Offset n.76: 0x00024D8D - Named SMALTRAN -                      
+Offset n.77: 0x00024E09 - Named SMALTRAN -                      
+Offset n.78: 0x00024E85 - Named SMALTRAN -                      
+Offset n.79: 0x00024F01 - Named TINYSHIP -                      
+Offset n.80: 0x00024F2F - Named TINYSHIP -                      
+Offset n.81: 0x00024F5D - Named TINYSHIP -                      
+Offset n.82: 0x00024F8B - Named TINYSHIP -                      
+Offset n.83: 0x00024FB9 - Named TINYSHIP -                      
+Offset n.84: 0x00024FE7 - Named TINYSHIP -                      
+Offset n.85: 0x00025015 - Named TINYTRAN -                      
+Offset n.86: 0x00025044 - Named TINYTRAN -                      
+Offset n.87: 0x00025073 - Named TINYTRAN -                      
+Offset n.88: 0x000250A2 - Named TINYTRAN -                      
+Offset n.89: 0x000250D1 - Named TINYTRAN -                      
+Offset n.90: 0x00025100 - Named TINYTRAN -                      
+Offset n.91: 0x0002512F - Named MOVE_SHI -                      
+Offset n.92: 0x000267C1 - Named MOVE_BUT - plus                 
+Offset n.93: 0x000268C6 - Named MOVE_BUT - minus                
+Offset n.94: 0x000269CB - Named MOVE_BUT - all                  
+Offset n.95: 0x00026AFE - Named MOVE_BUT - none                 
+Offset n.96: 0x00026C31 - Named SHIPBORD -                      
+Offset n.97: 0x00026D13 - Named MOVEXTRA -                      
+Offset n.98: 0x00027229 - Named MOVEXTR2 -                      
+Offset n.99: 0x000285F8 - Named MOVEXTR3 -                      
+Offset n.100: 0x00028AFE - Named SCANNER  -                      
+Offset n.101: 0x0002C94F - Named TRANSHIP -                      
+Offset n.102: 0x0002CD5E - Named TRANBORD -                      
+Offset n.103: 0x0002D9A4 - Named TRANXTRA -                      
+Offset n.104: 0x0002DF03 - Named DISMISS  -                      
+Offset n.105: 0x0002F3CC - Named FLEETBUT - view                 
+Offset n.106: 0x0002F7F5 - Named FLEETBUT - scrap                
+Offset n.107: 0x0002FC1E - Named FLEETBUT - ok                   
+Offset n.108: 0x00030004 - Named FLEETBUT - down arrow           
+Offset n.109: 0x000300D0 - Named FLEETBUT - up arrow             
+Offset n.110: 0x0003019C - Named VIEWSHIP -                      
+Offset n.111: 0x00032DF6 - Named VIEWSHP2 -                      
+Offset n.112: 0x00033873 - Named VIEWSHBT -                      
+Offset n.113: 0x00033A74 - Named SCRAP    -                      
+Offset n.114: 0x00034B05 - Named SCRAPBUT - no                   
+Offset n.115: 0x00034FA6 - Named SCRAPBUT - yes                  
+Offset n.116: 0x0003544F - Named SLANBORD -                      
+Offset n.117: 0x00035524 - Named REPRTBUT - ok                   
+Offset n.118: 0x000357E7 - Named REPRTBUT - up                   
+Offset n.119: 0x00035A2C - Named REPRTBUT - down                 
+Offset n.120: 0x00035C71 - Named GR_ARROW -                      
+Offset n.121: 0x00035CA8 - Named GR_ARROW -                      
+Offset n.122: 0x00035CDF - Named EOF      - End Of File          
