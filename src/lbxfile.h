@@ -58,8 +58,10 @@ public:
   LBXcontainer& operator=(LBXcontainer& ) = delete;
   LBXcontainer(LBXcontainer& ) = delete;
 
-  void LogToConsole();
+  void LogTo(ostream &outstream);
 
 };
+
+
 
 #endif // LBXFILE_H

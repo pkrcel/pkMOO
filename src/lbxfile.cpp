@@ -39,28 +39,29 @@ LBXcontainer::~LBXcontainer(){
   filebuffer.close();
 }
 
-void LBXcontainer::LogToConsole(){
-  cout << "Number of Files in " + filename + " container: "
+void LBXcontainer::LogTo(ostream &outstream){
+  outstream << "Number of Files in " + filename + " container: "
             << filecount << "\n" ;
 
-  cout << boost::format("Signature is 0x%08X\n") % signature;
-  cout << "LBX Container Type is: ";
-  cout << LBXContainerMap[type] + "\n";
+  outstream << boost::format("Signature is 0x%08X\n") % signature;
+  outstream << "LBX Container Type is: ";
+  outstream << LBXContainerMap[type] + "\n";
 
-  cout << "The file contains the following offsets\n";
+  outstream << "The file contains the following offsets\n";
   for (int ii = 0; ii <= filecount; ++ii ){
-      cout << boost::format("Offset n.%02d: 0x%08X")
-              % ii
-              % offsets[ii];
+      outstream << boost::format("Offset n.%02d: 0x%08X")
+                   % ii
+                   % offsets[ii];
       if (type == LBX_GFX) {
-
-      cout << boost::format(" - Named%- 9s -%- 22s\n")
-              % subfilenames[ii].first
-              % subfilenames[ii].second;
-      } else {
-          cout << "\n";
-      }
+          outstream << boost::format(" - Named%- 9s -%- 22s\n")
+                       % subfilenames[ii].first
+                       % subfilenames[ii].second;
+        } else {
+          outstream << "\n";
+        }
     }
-
+  outstream.flush();   // needed to be sure to close the output.
 }
+
+
 
