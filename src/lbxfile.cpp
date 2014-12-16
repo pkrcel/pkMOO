@@ -1,15 +1,15 @@
 #include "lbxfile.h"
 #include <boost/format.hpp>
 
-LBXcontainer::LBXcontainer(const std::string _filename):
+LBXcontainer::LBXcontainer(const string _filename):
   type(LBX_CONTAINER_MAX_TYPES),
   filename(_filename)
 {
   filebuffer.open(filename, std::ios_base::in|std::ios_base::binary);
   if (!filebuffer.is_open())
-      throw std::runtime_error("Cannot Open Specified LBX File: " + filename);
+      throw runtime_error("Cannot Open Specified LBX File: " + filename);
 
-  //do sect all the Header Information
+  //load all the Header Information
   filebuffer.read(reinterpret_cast<char*>(&filecount), 2);
   filebuffer.read(reinterpret_cast<char*>(&signature), 4);
   filebuffer.read(reinterpret_cast<char*>(&type), 2);
@@ -21,32 +21,46 @@ LBXcontainer::LBXcontainer(const std::string _filename):
       offsets.push_back(cur_off);
     }
 
+  //load filenames if GFX containers
+  if ( type == LBX_GFX ) {
+      filebuffer.seekg(0x200);
+      for (int ii = 0; ii < filecount; ++ii) {
+          char cName[9], cDesc[23];
+          filebuffer.read(reinterpret_cast<char*>(&cName), 9 );
+          filebuffer.read(reinterpret_cast<char*>(&cDesc), 23);
+          pair<string, string> dsc(cName, cDesc);
+          subfilenames.push_back(dsc);
+        }
+      subfilenames.push_back(make_pair("EOF", "End Of File"));
+    }
 }
 
 LBXcontainer::~LBXcontainer(){
   filebuffer.close();
 }
 
-void LBXcontainer::LogToConsole()
-{
-  std::cout << "Number of Files in " + filename + " container: "
+void LBXcontainer::LogToConsole(){
+  cout << "Number of Files in " + filename + " container: "
             << filecount << "\n" ;
-  std::cout << boost::format("Signature is 0x%08X\n") % signature;
-  std::cout << "LBX Container Type is: ";
-  std::cout << LBXContainerMap[type] + "\n";
-//  switch (type) {
-//    case LBX_gfx:
-//      std::cout << "LBX Graphics Container File\n";
-//      break;
-//    default:
-//      std::cout << "UNKNOWN!\n";
-//      break;
-//    }
-  std::cout << "The file contains the following offsets\n";
+
+  cout << boost::format("Signature is 0x%08X\n") % signature;
+  cout << "LBX Container Type is: ";
+  cout << LBXContainerMap[type] + "\n";
+
+  cout << "The file contains the following offsets\n";
   for (int ii = 0; ii <= filecount; ++ii ){
-      std::cout << boost::format("Offset n.%02d: 0x%08X\n")
-                   % ii
-                   % offsets[ii];
+      cout << boost::format("Offset n.%02d: 0x%08X")
+              % ii
+              % offsets[ii];
+      if (type == LBX_GFX) {
+
+      cout << boost::format(" - Named%- 9s -%- 22s\n")
+              % subfilenames[ii].first
+              % subfilenames[ii].second;
+      } else {
+          cout << "\n";
+      }
     }
+
 }
 

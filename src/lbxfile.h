@@ -14,7 +14,10 @@
 #include <vector>
 #include <array>
 #include <map>
+#include <utility>
 #include <stdexcept>
+
+using namespace std;
 
 enum LBXContainerType {
 LBX_GFX = (unsigned short)0,
@@ -25,7 +28,7 @@ LBX_UNUSED,
 LBX_REQD,           // in MOO1 REQD.LBX is the only file of this type
 LBX_CONTAINER_MAX_TYPES
 };
-static std::map<LBXContainerType , std::string> LBXContainerMap = {
+static map<LBXContainerType , string> LBXContainerMap = {
   { LBX_GFX        , "LBX Graphics Container"     },
   { LBX_SOUND      , "LBX Sound Container"        },
   { LBX_FONT       , "LBX Font/Palette Container" },
@@ -37,17 +40,18 @@ static std::map<LBXContainerType , std::string> LBXContainerMap = {
 class LBXcontainer
 {
 private:
-  std::string                   filename;
-  std::ifstream                 filebuffer;
+  string                        filename;
+  ifstream                      filebuffer;
   unsigned short                filecount;
   unsigned int                  signature;
   LBXContainerType              type;
-  std::vector<unsigned int>     offsets;
-  std::vector<std::streambuf>   subfiles;
+  vector<unsigned int>          offsets;
+  vector<streambuf>             subfiles;
+  vector<pair<string, string>>  subfilenames;   // in MOO1 only GFX files get subnamed
 protected:
 
 public:
-  LBXcontainer(const std::string  _filename);
+  LBXcontainer(const string _filename);
   ~LBXcontainer();
 
   //no copy constructors!
