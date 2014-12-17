@@ -16,6 +16,7 @@
 #include <map>
 #include <utility>
 #include <stdexcept>
+#include "error.h"
 
 using namespace std;
 
