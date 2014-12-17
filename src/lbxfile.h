@@ -1,5 +1,5 @@
 /*
- * Based on LB Moo1 File descritpor at
+ * Based on LBX Moo1 File descritpor at
  * https://web.archive.org/web/20060225030719/http://cronel.mube.net/moo/lbx.html
  *
  */
