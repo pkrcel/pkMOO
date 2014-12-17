@@ -25,6 +25,7 @@ aux_source_directory(src/utils SRC_UTILS_LIST)
 #very handy with QtCreator ^__^"
 file(GLOB_RECURSE global_headers "*.h")
 set(GLOB_SOURCE ${global_headers} ${SRC_LIST} ${SRC_ERROR_LIST} ${SRC_UTILS_LIST})
+add_custom_target(global SOURCES ${GLOB_SOURCE})
 
 # add the binary tree to the search path for include files
 # so that we will eventually find Cmake Generated Headers
@@ -34,7 +35,7 @@ set(GLOB_SOURCE ${global_headers} ${SRC_LIST} ${SRC_ERROR_LIST} ${SRC_UTILS_LIST
 #add_subdirectory(${PROJECT_SOURCE_DIR}/src/utils)
 #add_subdirectory(${PROJECT_SOURCE_DIR}/src/error)
 include_directories(${PROJECT_SOURCE_DIR}/src/utils)
-#include_directories(${PROJECT_SOURCE_DIR}/src/error)
+include_directories(${PROJECT_SOURCE_DIR}/src/error)
 
 #prepare resource data directory
 #file(GLOB_RECURSE resources RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/_Resources"
