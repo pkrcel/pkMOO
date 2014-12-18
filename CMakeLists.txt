@@ -22,12 +22,12 @@ endif()
 # may happen during build.
 aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LIST)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/error SRC_ERROR_LIST)
-aux_source_directory(${PROJECT_SOURCE_DIR}/src/utils SRC_UTILS_LIST)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/lbx SRC_LBX_LIST)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/tools SRC_TOOLS_LIST)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src/utils SRC_UTILS_LIST)
 
-set(GLOB_SOURCE ${SRC_LIST} ${SRC_ERROR_LIST} ${SRC_UTILS_LIST} ${SRC_LBX_LIST}
-                ${SRC_TOOLS_LIST})
+set(GLOB_SOURCE ${SRC_LIST} ${SRC_ERROR_LIST} ${SRC_LBX_LIST} ${SRC_TOOLS_LIST}
+                ${SRC_UTILS_LIST})
 
 # find all header files recursively in the project tree to add in the global
 # source tree to get all them in the IDE, regardless if used in a target or not
@@ -41,11 +41,11 @@ add_custom_target(global_fake SOURCES ${GLOB_SOURCE})
 include_directories("${PROJECT_BINARY_DIR}")
 
 
-#...and 'cliassic 'classic' include paths.
-include_directories(${PROJECT_SOURCE_DIR}/src/utils)
+#...and 'classic' include paths (AZ ordered !)
 include_directories(${PROJECT_SOURCE_DIR}/src/error)
 include_directories(${PROJECT_SOURCE_DIR}/src/lbx)
 include_directories(${PROJECT_SOURCE_DIR}/src/tools)
+include_directories(${PROJECT_SOURCE_DIR}/src/utils)
 
 # some handy g++ switches, we are still on windows only
 set(CMAKE_CXX_FLAGS "-std=c++11 -static-libstdc++ -static-libgcc -mwindows")
@@ -85,7 +85,7 @@ set(DEP_ALLEG_LIBS ogg opengl32)
 # to avoid that use a NON-posix threads enabled compiler.
 set(CMAKE_CXX_FLAGS "-std=c++11 -static-libstdc++ -static-libgcc -mwindows")
 
-# add Tools subdir in which there's something to build
+# adding Tools subdir in which there's something to build
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/tools)
 
 #add_dependencies(${PROJECT_NAME} copy_resources)
@@ -101,4 +101,4 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/src/tools)
 #target_link_libraries(${PROJECT_NAME} ${ALLEGRO_LIBS})
 #target_link_libraries(${PROJECT_NAME} ${DEP_ALLEG_LIBS})
 
-message("In ROOT  - Global SRC List: ${GLOB_SOURCE}")
+#message("In ROOT  - Global SRC List: ${GLOB_SOURCE}")
