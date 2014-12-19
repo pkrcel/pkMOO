@@ -4,7 +4,6 @@
 
 #include <stdexcept>
 #include <string>
-#include <sstream>
 
 
 class LBXException : public std::runtime_error

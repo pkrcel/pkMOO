@@ -1,5 +1,5 @@
 /*
- * Based on LBX Moo1 File descritpor at
+ * Based on LBX Moo1 File descriptor at
  * https://web.archive.org/web/20060225030719/http://cronel.mube.net/moo/lbx.html
  *
  */
@@ -7,9 +7,8 @@
 #ifndef LBXFILE_H
 #define LBXFILE_H
 
+//#include <iostream>
 #include <fstream>
-#include <iostream>
-#include <iomanip>
 #include <string>
 #include <vector>
 #include <array>
