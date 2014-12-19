@@ -15,8 +15,7 @@
 #include <array>
 #include <map>
 #include <utility>
-#include <stdexcept>
-#include "error.h"
+#include "lbxerror.h"
 
 using namespace std;
 

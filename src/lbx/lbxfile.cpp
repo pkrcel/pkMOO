@@ -1,4 +1,5 @@
 #include "lbxfile.h"
+#include "lbxerror.h"
 #include <boost/format.hpp>
 
 LBXcontainer::LBXcontainer(const string _filename):
@@ -7,7 +8,7 @@ LBXcontainer::LBXcontainer(const string _filename):
 {
   filebuffer.open(filename, std::ios_base::in|std::ios_base::binary);
   if (!filebuffer.is_open())
-      throw runtime_error("Cannot Open Specified LBX File: " + filename);
+      throw LBXException(1, "Cannot Open Specified LBX File: " + filename + "\n");
 
   //load all the Header Information
   filebuffer.read(reinterpret_cast<char*>(&filecount), 2);

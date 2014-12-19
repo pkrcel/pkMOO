@@ -21,7 +21,6 @@ endif()
 # in the makefile for a changed CMakeLists file would fail and something wonky
 # may happen during build.
 aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LIST)
-aux_source_directory(${PROJECT_SOURCE_DIR}/src/error SRC_ERROR_LIST)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/lbx SRC_LBX_LIST)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/tools SRC_TOOLS_LIST)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/utils SRC_UTILS_LIST)
