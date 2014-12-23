@@ -1,7 +1,10 @@
 #include <boost/format.hpp>
+#include <iomanip>
 
 #include "lbxfile.h"
 #include "lbxerror.h"
+
+using namespace std;
 
 
 LBXcontainer::LBXcontainer(const string _filename):
@@ -10,14 +13,27 @@ LBXcontainer::LBXcontainer(const string _filename):
 {
   filebuffer.open(filename, std::ios_base::in|std::ios_base::binary);
   if (!filebuffer.is_open())
-      throw LBXException(1, "LBXhandler-thrown exception at line "
-                         + to_string(__LINE__) + " of " + __FILE__ + "\n"
-                         + "Cannot Open Specified LBX File: " + filename
-                         + "\n");
+      throw LBXException(LBX_ERR_NOACCESS,
+                         string(__FILE__).substr(
+                           string(__FILE__).rfind("pkMOO\\")),
+                         __LINE__,
+                         filename,
+                         0xDEADBEEF,
+                         0x0,
+                         0xFFFFFFFF);
 
   //load all the Header Information
   filebuffer.read(reinterpret_cast<char*>(&filecount), 2);
   filebuffer.read(reinterpret_cast<char*>(&signature), 4);
+  if (signature != 0x000FEAD)
+    throw LBXException(LBX_ERR_BAD_SIGNATURE,
+                       string(__FILE__).substr(
+                         string(__FILE__).rfind("pkMOO\\")),
+                       __LINE__,
+                       filename,
+                       signature,
+                       0x0,
+                       0xFFFFFFFF);
   filebuffer.read(reinterpret_cast<char*>(&type), 2);
 
   //chek all offsets and load them in the container
@@ -34,8 +50,7 @@ LBXcontainer::LBXcontainer(const string _filename):
           char cName[9], cDesc[23];
           filebuffer.read(reinterpret_cast<char*>(&cName), 9 );
           filebuffer.read(reinterpret_cast<char*>(&cDesc), 23);
-          pair<string, string> dsc(cName, cDesc);
-          subfilenames.push_back(dsc);
+          subfilenames.push_back(make_pair(cName, cDesc));
         }
       subfilenames.push_back(make_pair("EOF", "End Of File"));
     }
@@ -59,12 +74,11 @@ void LBXcontainer::LogTo(ostream &outstream){
                    % ii
                    % offsets[ii];
       if (type == LBX_GFX) {
-          outstream << boost::format(" - Named%- 9s -%- 22s\n")
+          outstream << boost::format(" - Named%- 9s -%- 22s")
                        % subfilenames[ii].first
                        % subfilenames[ii].second;
-        } else {
-          outstream << "\n";
         }
+      outstream << "\n";
     }
   outstream.flush();   // needed to be sure to close the output.
 }
