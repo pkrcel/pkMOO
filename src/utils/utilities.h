@@ -1,5 +1,5 @@
-#ifndef UTILITIES_H
-#define UTILITIES_H
+#ifndef _UTILS_UTILITIES_H
+#define _UTILS_UTILITIES_H
 
 //Utility function prototypes
 
@@ -8,4 +8,4 @@ void endian_swap(unsigned short &x);
 void endian_swap(unsigned int &x);
 void endian_swap(unsigned long long &x);
 
-#endif // UTILITIES_H
+#endif // _UTILS_UTILITIES_H

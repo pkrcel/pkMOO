@@ -4,8 +4,8 @@
  *
  */
 
-#ifndef LBXFILE_H
-#define LBXFILE_H
+#ifndef _LBX_LBXCONTAINER_H
+#define _LBX_LBXCONTAINER_H
 
 #include <iostream>
 #include <fstream>
@@ -14,17 +14,19 @@
 #include <array>
 #include <map>
 #include <utility>
-#include "lbxerror.h"
 
-enum LBXContainerType {
-LBX_GFX = (unsigned short)0,
+#include "lbxexception.h"
+
+enum LBXContainerType : unsigned short {
+LBX_GFX = 0,
 LBX_SOUND,
 LBX_FONT,
 LBX_INGAMEHELP,
 LBX_UNUSED,
-LBX_REQD,           // in MOO1 REQD.LBX is the only file of this type
+LBX_REQD,
 LBX_CONTAINER_MAX_TYPES
 };
+
 static std::map<LBXContainerType , std::string> LBXContainerMap = {
   { LBX_GFX        , "LBX Graphics Container"     },
   { LBX_SOUND      , "LBX Sound Container"        },
@@ -36,6 +38,18 @@ static std::map<LBXContainerType , std::string> LBXContainerMap = {
 
 class LBXcontainer
 {
+public:
+  LBXcontainer(const std::string _filename);
+  ~LBXcontainer();
+
+  //no copy constructors!
+  LBXcontainer& operator=(LBXcontainer& ) = delete;
+  LBXcontainer(LBXcontainer& ) = delete;
+
+  void LogTo(std::ostream &outstream);
+
+protected:
+
 private:
   std::string                                       filename;
   std::ifstream                                     filebuffer;
@@ -48,20 +62,8 @@ private:
                                                     // in MOO1 only GFX files
                                                     // get subnamed in the
                                                     // container
-protected:
-
-public:
-  LBXcontainer(const std::string _filename);
-  ~LBXcontainer();
-
-  //no copy constructors!
-  LBXcontainer& operator=(LBXcontainer& ) = delete;
-  LBXcontainer(LBXcontainer& ) = delete;
-
-  void LogTo(std::ostream &outstream);
-
 };
 
 
 
-#endif // LBXFILE_H
+#endif // _LBX_LBXCONTAINER_H

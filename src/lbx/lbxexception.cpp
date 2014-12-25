@@ -1,9 +1,10 @@
 
 
 #include <boost/format.hpp>
-#include "lbxerror.h"
+#include "lbxexception.h"
 
 using namespace std;
+
 
 
 LBXException::LBXException(LBXExceptionType _ID,
@@ -15,8 +16,7 @@ LBXException::LBXException(LBXExceptionType _ID,
                            unsigned int _loff):
   ex_ID(_ID), sourceFile(_sourceFile), sourceLine(_sourceLine),
   oFilename(_filename), signature(_signature), file_size(_size),
-  last_offset(_loff)
-{
+  last_offset(_loff) {
   cLogMessage = "LBXHandler Exception: " + LBXExceptionMap[ex_ID] + "\n";
 
   cFullDescriptor = "LBXHandler Exception: " + LBXExceptionMap[ex_ID] + "\n" +

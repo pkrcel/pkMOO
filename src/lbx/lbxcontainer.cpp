@@ -1,17 +1,14 @@
 #include <boost/format.hpp>
-#include <iomanip>
 
-#include "lbxfile.h"
-#include "lbxerror.h"
+#include "lbxcontainer.h"
 
 using namespace std;
-
 
 LBXcontainer::LBXcontainer(const string _filename):
   type(LBX_CONTAINER_MAX_TYPES),
   filename(_filename)
 {
-  filebuffer.open(filename, std::ios_base::in|std::ios_base::binary);
+  filebuffer.open(filename, ios::in|ios::binary|ios::ate);
   if (!filebuffer.is_open())
       throw LBXException(LBX_ERR_NOACCESS,
                          string(__FILE__).substr(
@@ -21,6 +18,10 @@ LBXcontainer::LBXcontainer(const string _filename):
                          0xDEADBEEF,
                          0x0,
                          0xFFFFFFFF);
+
+  //before reading all info tellg() the filesize and seek back to file byte 0
+  off_t filesize = filebuffer.tellg();
+  filebuffer.seekg(0, ios::beg);
 
   //load all the Header Information
   filebuffer.read(reinterpret_cast<char*>(&filecount), 2);
@@ -42,6 +43,16 @@ LBXcontainer::LBXcontainer(const string _filename):
       filebuffer.read(reinterpret_cast<char*>(&cur_off), 4);
       offsets.push_back(cur_off);
     }
+
+  if (offsets.back() != filesize)
+    throw LBXException(LBX_ERR_WRONG_SIZE,
+                       string(__FILE__).substr(
+                         string(__FILE__).rfind("pkMOO\\")),
+                       __LINE__,
+                       filename,
+                       signature,
+                       filesize,
+                       offsets.back());
 
   //load filenames if GFX containers
   if ( type == LBX_GFX ) {
