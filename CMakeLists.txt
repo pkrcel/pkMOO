@@ -82,6 +82,9 @@ set(DEP_ALLEG_LIBS ogg opengl32)
 # some handy g++ switches, we are still on windows only
 set(CMAKE_CXX_FLAGS "-std=c++11 -static-libstdc++ -static-libgcc -mwindows")
 
+# adding TGUI2 local dir
+add_subdirectory(${PROJECT_SOURCE_DIR}/tgui2)
+
 # adding Tools subdir in which there's something to build
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/tools)
 
