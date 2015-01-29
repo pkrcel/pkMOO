@@ -26,3 +26,20 @@ inline void endian_swap(unsigned long long& x)
         ((x>>40) & 0x000000000000FF00) |
         (x<<56);
 }
+
+
+std::string getFileName(const std::string _path){
+  // sanitize application name - only windows for now
+  // path separator is '\' even in MSYS2 (and since Cygwin 1.7 seems)
+  // could be done in Boost::Filesystem but didn't want to carry over yet
+  // another BINARY dependency (boost_filesystem-mt and boost_system-mt)
+  static const char* pathsep = "/\\";
+  auto first = _path.find_last_of(pathsep) +1;
+  auto last = _path.find_last_of('.');
+  return _path.substr(first, last-first);
+}
+
+std::string getFileName(const char *_path){
+  return getFileName(std::string(_path));
+}
+

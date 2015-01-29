@@ -39,14 +39,21 @@ static std::map<LBXContainerType , std::string> LBXContainerMap = {
 class LBXcontainer
 {
 public:
-  LBXcontainer(const std::string _filename);
+  //constructors
+  LBXcontainer ();                            // empty constructor for obj init
+  LBXcontainer (const std::string _filename); // from file constructor.
   ~LBXcontainer();
 
   //no copy constructors!
   LBXcontainer& operator=(LBXcontainer& ) = delete;
   LBXcontainer(LBXcontainer& ) = delete;
+  //no copy constructors!
 
-  void LogTo(std::ostream &outstream);
+  void LogArchiveInfo(std::ostream &outstream);
+  void Reset();
+  void LoadArchiveFromFile(std::string _filename);
+  void DumpAllFiles();
+  void DumpFile(unsigned int _filenum);
 
 protected:
 
@@ -56,14 +63,12 @@ private:
   unsigned short                                    filecount;
   unsigned int                                      signature;
   LBXContainerType                                  type;
-  std::vector<unsigned int>                         offsets;
-  std::vector<std::streambuf>                       subfiles;
+  std::vector<off_t>                                offsets;
+  std::vector<std::vector<char>>                    subfiles;
   std::vector<std::pair<std::string, std::string>>  subfilenames;
                                                     // in MOO1 only GFX files
                                                     // get subnamed in the
                                                     // container
 };
-
-
 
 #endif // _LBX_LBXCONTAINER_H

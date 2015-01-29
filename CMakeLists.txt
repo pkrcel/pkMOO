@@ -46,9 +46,6 @@ include_directories(${PROJECT_SOURCE_DIR}/src/lbx)
 include_directories(${PROJECT_SOURCE_DIR}/src/tools)
 include_directories(${PROJECT_SOURCE_DIR}/src/utils)
 
-# some handy g++ switches, we are still on windows only
-set(CMAKE_CXX_FLAGS "-std=c++11 -static-libstdc++ -static-libgcc -mwindows")
-
 #prepare resource data directory
 #file(GLOB_RECURSE resources RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/_Resources"
 #    background/*.png
@@ -82,6 +79,7 @@ set(DEP_ALLEG_LIBS ogg opengl32)
 # the std libs (to ease distribution)
 # NOTE: this might still inject a dependency to libwinpthreads on Windows
 # to avoid that use a NON-posix threads enabled compiler.
+# some handy g++ switches, we are still on windows only
 set(CMAKE_CXX_FLAGS "-std=c++11 -static-libstdc++ -static-libgcc -mwindows")
 
 # adding Tools subdir in which there's something to build
