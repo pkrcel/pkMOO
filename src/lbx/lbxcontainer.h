@@ -54,6 +54,7 @@ public:
   void LoadArchiveFromFile(std::string _filename);
   void DumpAllFiles();
   void DumpFile(unsigned int _filenum);
+  LBXContainerType getType(void) {return type;}
 
 protected:
 
