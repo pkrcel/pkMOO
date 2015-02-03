@@ -1824,7 +1824,7 @@ void TGUI_Button::draw(int abs_x, int abs_y)
 	al_draw_line(x+0.5, y+height-0.5, x+width+0.5, y+height-0.5, back_darker, 1); // little longer to cover pixel
 	al_draw_line(x+width-0.5, y+0.5, x+width-0.5, y+height-0.5, back_darker, 1);
 
-	al_draw_text(tgui::getFont(), al_color_name("black"),
+        al_draw_text(tgui::getFont(), fore,
 		x+(int)width/2-al_get_text_width(tgui::getFont(), text.c_str())/2,
 		y+(int)height/2-al_get_font_line_height(tgui::getFont())/2,
 		0, text.c_str());
