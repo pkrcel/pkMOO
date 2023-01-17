@@ -39,3 +39,18 @@ install_manifest.txt
 *.LBX
 
 
+.vscode/launch.json
+.vscode/settings.json
+build/compile_commands.json
+build/.cmake/api/v1/query/client-vscode/query.json
+build/.cmake/api/v1/reply/cache-v2-49257439d13a55a26666.json
+build/.cmake/api/v1/reply/cmakeFiles-v1-96e9f877027266474d29.json
+build/.cmake/api/v1/reply/codemodel-v2-af9e113e990833ea9e38.json
+build/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json
+build/.cmake/api/v1/reply/directory-src.tools-Debug-45cf6c62ebae9991927b.json
+build/.cmake/api/v1/reply/index-2023-01-17T20-57-51-0407.json
+build/.cmake/api/v1/reply/target-moo1LBXdump-Debug-a3295850be5c80242c36.json
+build/.cmake/api/v1/reply/target-moo1LBXimager-Debug-b71e475d16b605e3bd10.json
+build/.cmake/api/v1/reply/toolchains-v1-1038dacd28da77425680.json
+build/src/tools/moo1LBXdump
+moodata/moo/aaa

@@ -7,7 +7,7 @@
 #   LBX container file.
 set(LBXDUMPTOOL "moo1LBXdump")
 add_executable(${LBXDUMPTOOL} lbxdump.cpp ${SRC_LBX_LIST} ${SRC_UTILS_LIST})
-target_link_libraries(${LBXDUMPTOOL} ${STANDARD_WIN_LIBS})
+target_link_libraries(${LBXDUMPTOOL} fmt::fmt)
 
 # - LBX Image Viewer
 #   this is the Allegro tool to view images in a Master of Orion
@@ -18,8 +18,6 @@ target_link_libraries(${LBXDUMPTOOL} ${STANDARD_WIN_LIBS})
 include_directories(${PROJECT_SOURCE_DIR}/tgui2)
 set(LBXIMAGEVIEWER "moo1LBXimager")
 add_executable(${LBXIMAGEVIEWER} lbximager.cpp ${SRC_LBX_LIST} ${SRC_UTILS_LIST})
-target_link_libraries(${LBXIMAGEVIEWER} tgui2)
-target_link_libraries(${LBXIMAGEVIEWER} ${ALLEGRO_LIBS})
-target_link_libraries(${LBXIMAGEVIEWER} ${DEP_ALLEG_LIBS})
-target_link_libraries(${LBXIMAGEVIEWER} ${STANDARD_WIN_LIBS})
+target_link_libraries(${LBXIMAGEVIEWER} Allegro::Allegro Allegro::font Allegro::image Allegro::primitives Allegro::color fmt::fmt)
+#target_link_libraries(${LBXIMAGEVIEWER} ${STANDARD_WIN_LIBS})
 
