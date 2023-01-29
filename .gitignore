@@ -38,7 +38,10 @@ install_manifest.txt
 #Specific for this repository: Master Of Orion DATA files (which should not be distributed)
 *.LBX
 
-
+#Genreral for this repository: vscode settigns and producd outputs
 .vscode/
 moodata/
+moodata/reps/
 build/
+dump.*
+moodata/dumpLBX.sh
